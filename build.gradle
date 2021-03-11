@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.fadest'
+version '1.0-SNAPSHOT'
+
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+    options.encoding = "UTF-8"
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'paper-repo'
+        url 'https://papermc.io/repo/repository/maven-public/'
+    }
+}
+
+dependencies {
+    implementation group: 'com.destroystokyo.paper', name: 'paper-api', version: '1.16.5-R0.1-SNAPSHOT'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.16'
+
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.16'
+}

@@ -1,0 +1,11 @@
+name: FadePets
+description: A floating-heads style pets plugin.
+version: 1.0.0
+main: dev.fadest.pets.FadePets
+author: Fadest
+website: https://fadest.dev
+api-version: 1.16
+commands:
+  pet:
+    description: The main command of the plugin, with subcommands to open pet menu, and enable/disable them for players.
+    aliases: [pets]

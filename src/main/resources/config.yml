@@ -1,0 +1,16 @@
+pets:
+  Rabbit:
+    skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxNjJkY2VmZmFjOTU3NDI5OGY5N2MyN2E3YWMyMzg2N2NjNTczYTlhMmYxNzg5ZDNkYjc2ZWE0ZDhlZDE1OSJ9fX0="
+    effects:
+      - SPEED:1
+      - INCREASE_DAMAGE:2
+menu:
+  title: "&cPets"
+  rows: 3
+  fill:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ""
+  items:
+    0:
+      pet: Rabbit
+      name: "&aBunny Pet"
